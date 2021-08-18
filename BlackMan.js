@@ -35,7 +35,7 @@ client.on("ready", async () => {
 
 //////////
 
-client.on("message", async message => {
+client.on("message",message => {
   if (message.content.startsWith(prefix + "help")) {
     let help = new Discord.MessageEmbed()
       .setColor(color)
